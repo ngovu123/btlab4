@@ -1,5 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
 
-</RelativeLayout>
+    <EditText
+        android:id="@+id/edtCapNhatTenNV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tên nhân viên"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/edtCapNhatPhongBan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phòng ban"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/btnCapNhat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cập nhật" />
+
+</LinearLayout>

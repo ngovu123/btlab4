@@ -9,19 +9,30 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity
+            android:name=".ThemPhongBan"
+            android:exported="false" />
+        <activity
+            android:name=".EmployeeDetails"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <activity android:name=".CapNhatNhanVien">
-        </activity>
-
-        <activity android:name=".ThemMoiNhanVien">
-        </activity>
+        <activity
+            android:name=".CapNhatNhanVien"
+            android:exported="true"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".ThemMoiNhanVien"
+            android:exported="true"
+            android:label="@string/app_name" />
     </application>
 
 </manifest>

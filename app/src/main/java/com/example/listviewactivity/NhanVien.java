@@ -3,12 +3,14 @@ package com.example.listviewactivity;
 import java.io.Serializable;
 
 public class NhanVien implements Serializable {
-    int manv;
-    String tennv;
+    private int manv;
+    private String tennv;
+    private String phongBan; // Thêm thuộc tính phòng ban
 
-    public NhanVien(int manv, String tennv) {
+    public NhanVien(int manv, String tennv, String phongBan) {
         this.manv = manv;
         this.tennv = tennv;
+        this.phongBan = phongBan;
     }
 
     public int getManv() {
@@ -19,6 +21,10 @@ public class NhanVien implements Serializable {
         return tennv;
     }
 
+    public String getPhongBan() {
+        return phongBan;
+    }
+
     public void setManv(int manv) {
         this.manv = manv;
     }
@@ -27,8 +33,13 @@ public class NhanVien implements Serializable {
         this.tennv = tennv;
     }
 
+    public void setPhongBan(String phongBan) {
+        this.phongBan = phongBan;
+    }
+
     @Override
     public String toString() {
-        return new String(this.manv + "-" + this.tennv);
+        return manv + "-" + tennv;
     }
+
 }

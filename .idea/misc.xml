@@ -3,14 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Dell/AndroidStudioProjects/ListViewActivity/app/src/main/res/layout/activity_main.xml" value="0.264" />
-        <entry key="..\:/Users/Dell/AndroidStudioProjects/ListViewActivity/app/src/main/res/layout/layout_capnhatnhanvien.xml" value="0.10989583333333333" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/ListViewActivity/app/src/main/res/layout/activity_employee_details.xml" value="0.10625" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/ListViewActivity/app/src/main/res/layout/activity_them_phong_ban.xml" value="0.2" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/ListViewActivity/app/src/main/res/layout/activity_xoa_nhan_vien.xml" value="0.10677083333333333" />
         <entry key="..\:/Users/Dell/AndroidStudioProjects/ListViewActivity/app/src/main/res/layout/layout_themmoinhanvien.xml" value="0.264" />
-        <entry key="..\:/Users/Dell/AndroidStudioProjects/ListViewActivity/app/src/main/res/menu/mnulistviewcontext.xml" value="0.264" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+  <component name="ProjectResources">
+    <resource url="urn:oasis:names:tc:xliff:document:1.2" location="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

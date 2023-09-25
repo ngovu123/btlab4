@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="departments">
+        <item>Phòng Ban 1</item>
+        <item>Phòng Ban 2</item>
+        <item>Phòng Ban 3</item>
+        <!-- Thêm các phòng ban khác tại đây -->
+    </array>
+</resources>
